@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,800;0,900;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="absolute left-0 top-0 z-10 flex w-full items-center bg-transparent">
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4">
+            <a href="#home" class="block py-6 text-lg font-bold lg:text-2xl">Travel<span class="text-sky-400">Ku</span>.</a>
+          </div>
+
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute right-4 block lg:hidden">
+              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+            </button>
+
+            <nav id="nav-menu" class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#home" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">About</a>
+                </li>
+                <li class="group">
+                  <a href="#client" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">Booking</a>
+                </li>
+                <li class="group">
+                  <a href="contact.html" class="mx-8 flex py-2 text-base text-slate-700 group-hover:text-sky-400 lg:font-semibold">Blog</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HOME START -->
+    <section id="home" class="pt-36 h-screen">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-bold text-3xl lg:text-6xl">Make your trip safety and fun!</h1>
+            <p class="text-sm lg:text-base text-slate-700 mt-4 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore fugit eveniet in, aspernatur obcaecati?</p>
+            <a class="px-10 py-3 bg-sky-300 rounded-md text-white shadow-md" href="">Booking Now</a>
+          </div>
+
+          <div class="mt-12 lg:mt-0 w-full self-end px-4 lg:w-1/2 pt-36 lg:pt-0">
+            <img class="w-[800px]" src="img/tourist.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOME END -->
+
+    <!-- ABOUT START -->
+    <section id="about" class="pt-36 lg:pt-24">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-start px-4 lg:w-1/2">
+            <img src="img/lock.png" alt="" />
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h1 class="font-bold text-xl lg:text-6xl mb-4 lg:mb-6">One of the trusted travellers.</h1>
+            <p class="text-base lg:text-lg text-slate-700">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque provident voluptatum a reprehenderit, recusandae harum nesciunt totam similique, obcaecati, perspiciatis rem velit veritatis labore magnam eligendi quaerat rerum
+              fuga. Magnam.
+            </p>
+
+            <div class="flex flex-wrap mt-6">
+              <div class="w-1/3">
+                <h1 class="lg:text-3xl text-xl font-bold">10M</h1>
+                <p>lorem</p>
+              </div>
+              <div class="w-1/3">
+                <h1 class="lg:text-3xl text-xl font-bold">100K</h1>
+                <p>lorem</p>
+              </div>
+              <div class="w-1/3">
+                <h1 class="lg:text-3xl text-xl font-bold">30.6%</h1>
+                <p>lorem</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <section id="contact" class="pt-36 lg:pt-24">
+      <div class="container">
+        <div class="flex flex-wrap bg-sky-400 rounded-xl shadow-xl">
+          <div class="px-4 py-4 w-1/2">
+            <img class="w-[300px] h[300px]" src="img/travel.png" alt="" />
+          </div>
+          <div class="self-center py-4 px-4 w-1/2">
+            <h1 class="font-bold text-xl lg:text-4xl text-white">Want to order travel tickets?</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="client" class="pt-36 lg:pt-24">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 self-center lg:w-1/2">
+            <h1 class="font-bold text-2xl lg:text-5xl mb-6">Where do you want to go?</h1>
+            <p class="text-lg text-slate-700 mb-10">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam provident, voluptate, sunt maxime minus vitae, animi dolores molestiae ab labore excepturi mollitia nisi possimus eos dolor laudantium illum. Ratione, natus.
+            </p>
+            <a class="px-10 py-3 bg-sky-300 rounded-md text-white shadow-md" href="">Booking Now</a>
+          </div>
+          <div class="w-full px-4 self-end lg:w-1/2">
+            <img src="img/maps.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER START -->
+    <footer class="pb-12 pt-24">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="mb-12 w-full px-4 lg:w-1/4">
+            <h1 class="mb-4 text-base font-semibold text-slate-900">Contact</h1>
+            <p class="mb-3 text-sm text-slate-700"><i class="bx bxs-user"></i> TravelKu ID</p>
+            <p class="mb-3 text-sm text-slate-700"><i class="bx bxs-envelope"></i> brilliahib21@gmail.com</p>
+            <p class="mb-3 text-sm text-slate-700"><i class="bx bxs-location-plus"></i> Semarang, Jawa Tengah, Indonesia</p>
+          </div>
+
+          <div class="mb-12 w-1/2 px-4 lg:w-1/4">
+            <h1 class="mb-4 text-base font-semibold text-slate-700">Links</h1>
+            <ul class="text-sm text-slate-700">
+              <li>
+                <a href="#home" class="mb-3 inline-block hover:text-sky-400">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="mb-3 inline-block hover:text-sky-400">About</a>
+              </li>
+              <li>
+                <a href="#client" class="mb-3 inline-block hover:text-sky-400">Booking</a>
+              </li>
+              <li>
+                <a href="#home" class="mb-3 inline-block hover:text-sky-400">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-12 w-1/2 px-4 lg:w-1/4">
+            <h1 class="mb-4 text-base font-semibold text-slate-700">Services</h1>
+            <p class="mb-3 text-sm text-slate-700">Ticket</p>
+            <p class="mb-3 text-sm text-slate-700">Travel</p>
+            <p class="mb-3 text-sm text-slate-700">Go Send</p>
+            <p class="mb-3 text-sm text-slate-700">Packet</p>
+          </div>
+
+          <div class="mb-12 w-full px-4 lg:w-1/4">
+            <h1 class="mb-4 text-base font-semibold text-slate-700">Follow Me</h1>
+            <ul class="flex text-sm text-slate-700">
+              <li>
+                <a href="https://www.instagram.com/brilliahib69/" class="mb-3 inline-block hover:text-sky-400"><i class="bx bxl-instagram mr-3 text-xl lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/muhammad-ahib-ibrilli-219421255/" class="mb-3 inline-block hover:text-sky-400"><i class="bx bxl-linkedin mr-3 text-xl lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/Brilliahib" class="mb-3 inline-block hover:text-sky-400"><i class="bx bxl-github mr-3 text-xl lg:text-2xl"></i></a>
+              </li>
+              <li>
+                <a href="https://www.figma.com/@brilly" class="mb-3 inline-block hover:text-sky-400"><i class="bx bxl-figma text-xl lg:text-2xl"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full justify-center border-t border-slate-200 px-8 pt-10 text-center lg:px-4">
+          <p class="text-sm">Copyright©2023 All rights reserved | Made by <span class="font-semibold text-sky-400">Brilliahib</span></p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
