@@ -34,9 +34,17 @@ function darkMode() {
 
   if (html.classList.contains("dark")) {
     html.classList.remove("dark");
-    moon.innerHTML = '<i class="text-yellow-300 text-xl bx bxs-moon"></i>';
+    moon.innerHTML = '<i class="text-xl bx bxs-sun"></i>';
   } else {
     html.classList.add("dark");
-    moon.innerHTML = '<i class="text-xl bx bxs-sun"></i>';
+    moon.innerHTML = '<i class="text-yellow-300 text-xl bx bxs-moon"></i>';
   }
+}
+
+darkMode();
+
+if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+  moon.contains = true;
+} else {
+  moon.contains = false;
 }
