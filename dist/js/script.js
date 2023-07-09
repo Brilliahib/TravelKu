@@ -21,7 +21,7 @@ window.onscroll = function () {
 };
 
 var typingEffect = new Typed("#multiText", {
-  strings: ["safety.", "fun."],
+  strings: ["safety!", "fun!"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 100,
